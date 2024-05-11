@@ -64,3 +64,5 @@ app.post('/delete/:id', (req, res) => {
     )
 })
 
+app.listen(process.env.PORT || 3000);
+
